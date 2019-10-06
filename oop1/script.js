@@ -1,6 +1,6 @@
 /* Hello World Example */
 
-function person(name, age) {
+/*function Person(name, age) {
 
 	this.name = name;
 	this.age = age;
@@ -8,4 +8,20 @@ function person(name, age) {
 		console.log(this.name, this.age);
 	}
 }
-new person("John", 20).result();
+new Person("John", 20).result();*/
+
+/* Simple object */
+
+var simpleObject = {
+	id: 1,
+	'name': 'John'
+}
+
+// console.log(simpleObject);
+/*simpleObject.id = 2;
+console.log(simpleObject.id);*/
+
+simpleObject.age = 3;
+console.log(simpleObject.age);
+
+/*TODO add Teams n Employees objects n clases (using Function Expression)*/
