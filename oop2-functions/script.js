@@ -111,8 +111,10 @@ let user = {
 };
 let user1 = user;
 let clone = Object.assign({}, user);
-
-
+user1.age = 25;
+console.log(user);
+clone.name = "James";
+console.log(user);
 
 
 
