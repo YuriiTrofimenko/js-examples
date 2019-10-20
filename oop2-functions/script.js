@@ -87,7 +87,7 @@ console.log( bag.apple );*/
   console.log(key);
 }*/
 
-function меч() {}
+// function меч() {}
 
 /*let рыцарь = function (id, оружие) {
 	this.id = id;
@@ -98,13 +98,19 @@ function меч() {}
 };
 new рыцарь(12, меч).удар(); */
 
-function Рыцарь (оружие) {
+/* function Рыцарь (оружие) {
 	this.удар = function () {
     	console.log("удар (" + оружие.name + ")");
   }
 };
-let рыцарь = new Рыцарь(меч).удар();
+let рыцарь = new Рыцарь(меч).удар(); */
 
+let user = {
+  name: "John",
+  age: 30
+};
+let user1 = user;
+let clone = Object.assign({}, user);
 
 
 
